@@ -1,0 +1,1148 @@
+ERROR - 2024-12-04 07:36:23 --> mysqli_sql_exception: Table 'cludo.tbl_classes' doesn't exist in E:\xampp\htdocs\cludo\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 E:\xampp\htdocs\cludo\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT * FROM t...', 0)
+#1 E:\xampp\htdocs\cludo\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM t...')
+#2 E:\xampp\htdocs\cludo\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM t...')
+#3 E:\xampp\htdocs\cludo\app\Models\UserModel.php(11): CodeIgniter\Database\BaseConnection->query('SELECT * FROM t...')
+#4 E:\xampp\htdocs\cludo\app\Controllers\Home.php(13): App\Models\UserModel->show_all_data()
+#5 E:\xampp\htdocs\cludo\system\CodeIgniter.php(933): App\Controllers\Home->index()
+#6 E:\xampp\htdocs\cludo\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 E:\xampp\htdocs\cludo\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\cludo\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 E:\xampp\htdocs\cludo\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 E:\xampp\htdocs\cludo\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2024-12-04 07:36:23 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'cludo.tbl_classes' doesn't exist
+[Method: GET, Route: /]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 APPPATH\Models\UserModel.php(11): CodeIgniter\Database\BaseConnection->query('SELECT * FROM tbl_classes')
+ 2 APPPATH\Controllers\Home.php(13): App\Models\UserModel->show_all_data()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-04 07:36:23 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'cludo.tbl_classes' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM tbl_classes')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM tbl_classes')
+ 3 APPPATH\Models\UserModel.php(11): CodeIgniter\Database\BaseConnection->query('SELECT * FROM tbl_classes')
+ 4 APPPATH\Controllers\Home.php(13): App\Models\UserModel->show_all_data()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-04 07:36:23 --> [Caused by] mysqli_sql_exception: Table 'cludo.tbl_classes' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT * FROM tbl_classes', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM tbl_classes')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM tbl_classes')
+ 4 APPPATH\Models\UserModel.php(11): CodeIgniter\Database\BaseConnection->query('SELECT * FROM tbl_classes')
+ 5 APPPATH\Controllers\Home.php(13): App\Models\UserModel->show_all_data()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-12-04 07:36:24 --> mysqli_sql_exception: Table 'cludo.tbl_classes' doesn't exist in E:\xampp\htdocs\cludo\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 E:\xampp\htdocs\cludo\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT * FROM t...', 0)
+#1 E:\xampp\htdocs\cludo\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM t...')
+#2 E:\xampp\htdocs\cludo\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM t...')
+#3 E:\xampp\htdocs\cludo\app\Models\UserModel.php(11): CodeIgniter\Database\BaseConnection->query('SELECT * FROM t...')
+#4 E:\xampp\htdocs\cludo\app\Controllers\Home.php(13): App\Models\UserModel->show_all_data()
+#5 E:\xampp\htdocs\cludo\system\CodeIgniter.php(933): App\Controllers\Home->index()
+#6 E:\xampp\htdocs\cludo\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 E:\xampp\htdocs\cludo\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\cludo\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 E:\xampp\htdocs\cludo\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 E:\xampp\htdocs\cludo\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2024-12-04 07:36:24 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'cludo.tbl_classes' doesn't exist
+[Method: GET, Route: /]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 APPPATH\Models\UserModel.php(11): CodeIgniter\Database\BaseConnection->query('SELECT * FROM tbl_classes')
+ 2 APPPATH\Controllers\Home.php(13): App\Models\UserModel->show_all_data()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-04 07:36:24 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'cludo.tbl_classes' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM tbl_classes')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM tbl_classes')
+ 3 APPPATH\Models\UserModel.php(11): CodeIgniter\Database\BaseConnection->query('SELECT * FROM tbl_classes')
+ 4 APPPATH\Controllers\Home.php(13): App\Models\UserModel->show_all_data()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-04 07:36:24 --> [Caused by] mysqli_sql_exception: Table 'cludo.tbl_classes' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT * FROM tbl_classes', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM tbl_classes')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM tbl_classes')
+ 4 APPPATH\Models\UserModel.php(11): CodeIgniter\Database\BaseConnection->query('SELECT * FROM tbl_classes')
+ 5 APPPATH\Controllers\Home.php(13): App\Models\UserModel->show_all_data()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-12-04 09:28:53 --> mysqli_sql_exception: Table 'cludo.your_table_name' doesn't exist in E:\xampp\htdocs\cludo\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 E:\xampp\htdocs\cludo\system\Database\MySQLi\Connection.php(312): mysqli->query('UPDATE your_tab...', 0)
+#1 E:\xampp\htdocs\cludo\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE your_tab...')
+#2 E:\xampp\htdocs\cludo\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE your_tab...')
+#3 E:\xampp\htdocs\cludo\app\Models\UserModel.php(69): CodeIgniter\Database\BaseConnection->query('UPDATE your_tab...', Array)
+#4 E:\xampp\htdocs\cludo\app\Controllers\Home.php(149): App\Models\UserModel->update_status(Array)
+#5 E:\xampp\htdocs\cludo\system\CodeIgniter.php(933): App\Controllers\Home->update_status()
+#6 E:\xampp\htdocs\cludo\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 E:\xampp\htdocs\cludo\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\cludo\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 E:\xampp\htdocs\cludo\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 E:\xampp\htdocs\cludo\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2024-12-04 09:28:53 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'cludo.your_table_name' doesn't exist
+[Method: POST, Route: status]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 APPPATH\Models\UserModel.php(69): CodeIgniter\Database\BaseConnection->query('UPDATE your_table_name SET status = \'INACTIVE\' WHERE id = ?', [...])
+ 2 APPPATH\Controllers\Home.php(149): App\Models\UserModel->update_status([...])
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->update_status()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-04 09:28:53 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'cludo.your_table_name' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE your_table_name SET status = \'INACTIVE\' WHERE id = \'2\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE your_table_name SET status = \'INACTIVE\' WHERE id = \'2\'')
+ 3 APPPATH\Models\UserModel.php(69): CodeIgniter\Database\BaseConnection->query('UPDATE your_table_name SET status = \'INACTIVE\' WHERE id = ?', [...])
+ 4 APPPATH\Controllers\Home.php(149): App\Models\UserModel->update_status([...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->update_status()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-04 09:28:53 --> [Caused by] mysqli_sql_exception: Table 'cludo.your_table_name' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('UPDATE your_table_name SET status = \'INACTIVE\' WHERE id = \'2\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE your_table_name SET status = \'INACTIVE\' WHERE id = \'2\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE your_table_name SET status = \'INACTIVE\' WHERE id = \'2\'')
+ 4 APPPATH\Models\UserModel.php(69): CodeIgniter\Database\BaseConnection->query('UPDATE your_table_name SET status = \'INACTIVE\' WHERE id = ?', [...])
+ 5 APPPATH\Controllers\Home.php(149): App\Models\UserModel->update_status([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->update_status()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-12-04 09:28:57 --> mysqli_sql_exception: Table 'cludo.your_table_name' doesn't exist in E:\xampp\htdocs\cludo\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 E:\xampp\htdocs\cludo\system\Database\MySQLi\Connection.php(312): mysqli->query('UPDATE your_tab...', 0)
+#1 E:\xampp\htdocs\cludo\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE your_tab...')
+#2 E:\xampp\htdocs\cludo\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE your_tab...')
+#3 E:\xampp\htdocs\cludo\app\Models\UserModel.php(69): CodeIgniter\Database\BaseConnection->query('UPDATE your_tab...', Array)
+#4 E:\xampp\htdocs\cludo\app\Controllers\Home.php(149): App\Models\UserModel->update_status(Array)
+#5 E:\xampp\htdocs\cludo\system\CodeIgniter.php(933): App\Controllers\Home->update_status()
+#6 E:\xampp\htdocs\cludo\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 E:\xampp\htdocs\cludo\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\cludo\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 E:\xampp\htdocs\cludo\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 E:\xampp\htdocs\cludo\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2024-12-04 09:28:57 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'cludo.your_table_name' doesn't exist
+[Method: POST, Route: status]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 APPPATH\Models\UserModel.php(69): CodeIgniter\Database\BaseConnection->query('UPDATE your_table_name SET status = \'INACTIVE\' WHERE id = ?', [...])
+ 2 APPPATH\Controllers\Home.php(149): App\Models\UserModel->update_status([...])
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->update_status()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-04 09:28:57 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'cludo.your_table_name' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE your_table_name SET status = \'INACTIVE\' WHERE id = \'2\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE your_table_name SET status = \'INACTIVE\' WHERE id = \'2\'')
+ 3 APPPATH\Models\UserModel.php(69): CodeIgniter\Database\BaseConnection->query('UPDATE your_table_name SET status = \'INACTIVE\' WHERE id = ?', [...])
+ 4 APPPATH\Controllers\Home.php(149): App\Models\UserModel->update_status([...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->update_status()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-04 09:28:57 --> [Caused by] mysqli_sql_exception: Table 'cludo.your_table_name' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('UPDATE your_table_name SET status = \'INACTIVE\' WHERE id = \'2\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE your_table_name SET status = \'INACTIVE\' WHERE id = \'2\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE your_table_name SET status = \'INACTIVE\' WHERE id = \'2\'')
+ 4 APPPATH\Models\UserModel.php(69): CodeIgniter\Database\BaseConnection->query('UPDATE your_table_name SET status = \'INACTIVE\' WHERE id = ?', [...])
+ 5 APPPATH\Controllers\Home.php(149): App\Models\UserModel->update_status([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->update_status()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-04 10:38:05 --> ErrorException: Undefined array key "id"
+[Method: POST, Route: add]
+in APPPATH\Views\add_user.php on line 3.
+ 1 APPPATH\Views\add_user.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'E:\\xampp\\htdocs\\cludo\\app\\Views\\add_user.php', 3)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp\\htdocs\\cludo\\app\\Views\\add_user.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('add_user', [], true)
+ 5 APPPATH\Controllers\Home.php(24): view('add_user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->add_user()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-04 10:38:10 --> ErrorException: Undefined array key "id"
+[Method: POST, Route: add]
+in APPPATH\Views\add_user.php on line 3.
+ 1 APPPATH\Views\add_user.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'E:\\xampp\\htdocs\\cludo\\app\\Views\\add_user.php', 3)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp\\htdocs\\cludo\\app\\Views\\add_user.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('add_user', [], true)
+ 5 APPPATH\Controllers\Home.php(24): view('add_user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->add_user()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-04 10:38:21 --> ErrorException: Undefined array key "id"
+[Method: POST, Route: add]
+in APPPATH\Views\add_user.php on line 3.
+ 1 APPPATH\Views\add_user.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'E:\\xampp\\htdocs\\cludo\\app\\Views\\add_user.php', 3)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp\\htdocs\\cludo\\app\\Views\\add_user.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('add_user', [], true)
+ 5 APPPATH\Controllers\Home.php(24): view('add_user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->add_user()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-04 10:38:44 --> ErrorException: Undefined array key "id"
+[Method: POST, Route: add]
+in APPPATH\Views\add_user.php on line 16.
+ 1 APPPATH\Views\add_user.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'E:\\xampp\\htdocs\\cludo\\app\\Views\\add_user.php', 16)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp\\htdocs\\cludo\\app\\Views\\add_user.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('add_user', [], true)
+ 5 APPPATH\Controllers\Home.php(24): view('add_user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->add_user()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-04 10:38:46 --> ErrorException: Undefined array key "id"
+[Method: POST, Route: add]
+in APPPATH\Views\add_user.php on line 16.
+ 1 APPPATH\Views\add_user.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'E:\\xampp\\htdocs\\cludo\\app\\Views\\add_user.php', 16)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp\\htdocs\\cludo\\app\\Views\\add_user.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('add_user', [], true)
+ 5 APPPATH\Controllers\Home.php(24): view('add_user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->add_user()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-04 10:38:57 --> ErrorException: Undefined array key "id"
+[Method: POST, Route: add]
+in APPPATH\Views\add_user.php on line 16.
+ 1 APPPATH\Views\add_user.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'E:\\xampp\\htdocs\\cludo\\app\\Views\\add_user.php', 16)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp\\htdocs\\cludo\\app\\Views\\add_user.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('add_user', [], true)
+ 5 APPPATH\Controllers\Home.php(24): view('add_user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->add_user()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-04 10:39:13 --> ErrorException: Undefined variable $state
+[Method: POST, Route: add]
+in APPPATH\Views\add_user.php on line 162.
+ 1 APPPATH\Views\add_user.php(162): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $state', 'E:\\xampp\\htdocs\\cludo\\app\\Views\\add_user.php', 162)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp\\htdocs\\cludo\\app\\Views\\add_user.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('add_user', [], true)
+ 5 APPPATH\Controllers\Home.php(24): view('add_user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->add_user()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-04 10:41:12 --> ErrorException: Undefined array key "id"
+[Method: POST, Route: add]
+in APPPATH\Views\add_user.php on line 16.
+ 1 APPPATH\Views\add_user.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'E:\\xampp\\htdocs\\cludo\\app\\Views\\add_user.php', 16)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp\\htdocs\\cludo\\app\\Views\\add_user.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('add_user', [], true)
+ 5 APPPATH\Controllers\Home.php(24): view('add_user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->add_user()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-04 10:42:17 --> ErrorException: Undefined array key "id"
+[Method: POST, Route: add]
+in APPPATH\Views\add_user.php on line 16.
+ 1 APPPATH\Views\add_user.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'E:\\xampp\\htdocs\\cludo\\app\\Views\\add_user.php', 16)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp\\htdocs\\cludo\\app\\Views\\add_user.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('add_user', [], true)
+ 5 APPPATH\Controllers\Home.php(24): view('add_user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->add_user()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-04 10:42:33 --> ErrorException: Undefined array key "id"
+[Method: POST, Route: add]
+in APPPATH\Views\add_user.php on line 16.
+ 1 APPPATH\Views\add_user.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'E:\\xampp\\htdocs\\cludo\\app\\Views\\add_user.php', 16)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp\\htdocs\\cludo\\app\\Views\\add_user.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('add_user', [], true)
+ 5 APPPATH\Controllers\Home.php(24): view('add_user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->add_user()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-04 10:45:21 --> ErrorException: Undefined array key "id"
+[Method: POST, Route: add]
+in APPPATH\Views\add_user.php on line 18.
+ 1 APPPATH\Views\add_user.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'E:\\xampp\\htdocs\\cludo\\app\\Views\\add_user.php', 18)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp\\htdocs\\cludo\\app\\Views\\add_user.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('add_user', [], true)
+ 5 APPPATH\Controllers\Home.php(24): view('add_user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->add_user()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-04 10:46:53 --> ErrorException: Undefined array key "id"
+[Method: POST, Route: add]
+in APPPATH\Views\add_user.php on line 16.
+ 1 APPPATH\Views\add_user.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'E:\\xampp\\htdocs\\cludo\\app\\Views\\add_user.php', 16)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp\\htdocs\\cludo\\app\\Views\\add_user.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('add_user', [], true)
+ 5 APPPATH\Controllers\Home.php(24): view('add_user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->add_user()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-04 10:47:10 --> ErrorException: Undefined array key "id"
+[Method: POST, Route: add]
+in APPPATH\Views\add_user.php on line 16.
+ 1 APPPATH\Views\add_user.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'E:\\xampp\\htdocs\\cludo\\app\\Views\\add_user.php', 16)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp\\htdocs\\cludo\\app\\Views\\add_user.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('add_user', [], true)
+ 5 APPPATH\Controllers\Home.php(24): view('add_user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->add_user()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-04 10:48:33 --> ErrorException: Undefined array key "id"
+[Method: POST, Route: add]
+in APPPATH\Views\add_user.php on line 16.
+ 1 APPPATH\Views\add_user.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'E:\\xampp\\htdocs\\cludo\\app\\Views\\add_user.php', 16)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp\\htdocs\\cludo\\app\\Views\\add_user.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('add_user', [], true)
+ 5 APPPATH\Controllers\Home.php(24): view('add_user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->add_user()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-04 11:35:31 --> ErrorException: Undefined variable $customer_name
+[Method: POST, Route: save_user]
+in APPPATH\Views\add_user.php on line 70.
+ 1 APPPATH\Views\add_user.php(70): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $customer_name', 'E:\\xampp\\htdocs\\cludo\\app\\Views\\add_user.php', 70)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp\\htdocs\\cludo\\app\\Views\\add_user.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('add_user', [], true)
+ 5 APPPATH\Controllers\Home.php(151): view('add_user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->save_user()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-04 11:35:32 --> ErrorException: Undefined variable $customer_name
+[Method: GET, Route: add]
+in APPPATH\Views\add_user.php on line 70.
+ 1 APPPATH\Views\add_user.php(70): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $customer_name', 'E:\\xampp\\htdocs\\cludo\\app\\Views\\add_user.php', 70)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp\\htdocs\\cludo\\app\\Views\\add_user.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('add_user', [], true)
+ 5 APPPATH\Controllers\Home.php(25): view('add_user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->add_user()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-04 11:35:34 --> ErrorException: Undefined variable $customer_name
+[Method: GET, Route: add]
+in APPPATH\Views\add_user.php on line 70.
+ 1 APPPATH\Views\add_user.php(70): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $customer_name', 'E:\\xampp\\htdocs\\cludo\\app\\Views\\add_user.php', 70)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp\\htdocs\\cludo\\app\\Views\\add_user.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('add_user', [], true)
+ 5 APPPATH\Controllers\Home.php(25): view('add_user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->add_user()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-04 11:44:47 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "user_form.php"
+[Method: POST, Route: save_user]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('user_form.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('user_form', [], true)
+ 3 APPPATH\Controllers\Home.php(148): view('user_form', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->save_user()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-04 11:44:50 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "user_form.php"
+[Method: POST, Route: save_user]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('user_form.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('user_form', [], true)
+ 3 APPPATH\Controllers\Home.php(148): view('user_form', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->save_user()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-04 11:51:15 --> Error: Call to a member function withInput() on string
+[Method: POST, Route: save_user]
+in APPPATH\Controllers\Home.php on line 145.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->save_user()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-04 11:51:31 --> Error: Call to a member function withInput() on string
+[Method: POST, Route: save_user]
+in APPPATH\Controllers\Home.php on line 145.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->save_user()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-04 12:19:01 --> Error: Call to undefined function form_error()
+[Method: POST, Route: save_user]
+in APPPATH\Views\add_user.php on line 70.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('add_user', [], true)
+ 4 APPPATH\Controllers\Home.php(25): view('add_user', [...])
+ 5 APPPATH\Controllers\Home.php(110): App\Controllers\Home->add_user()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->save_user()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-04 12:23:30 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Data</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <form id="custom_form" method="post">
+        <input type="hidden" name="custom_id" id="custom_id">
+        <input type="hidden" name="mode" id="mode">
+        <input type="hidden" name="ext_flag" id="ext_flag">
+        <input type="hidden" name="ci_csrf_token" value="">
+    </form>
+    
+    <div class="container mt-5">
+        <h2>Add User</h2>
+        <a class="btn btn-sm btn-primary" href="http://localhost/cludo/">View User</a>
+        <form action="http://localhost/cludo/save_user" method="POST">
+            <input type="hidden" name="user_id" value="">
+            <div class="mb-3">
+                <label for="name" class="form-label">Coustomer Name <span
+                        class="text-danger text-capitalize">*</span></label>
+                <input type="text" class="form-control" id="name" name="name" value="">
+                <div class="text-danger">
+                                    </div>
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">Contact Person <span
+                        class="text-danger text-capitalize">*</span></label>
+                <input type="text" class="form-control" id="c_person" name="c_person" value="">
+                            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">Contact No <span
+                        class="text-danger text-capitalize">*</span></label>
+                <input type="number" class="form-control" id="c_number" name="c_number" value="">
+                            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">Email ID <span
+                        class="text-danger text-capitalize">*</span></label>
+                <input type="text" class="form-control" id="email" name="email" value="">
+                            </div>
+            <div class="mb-3">
+                <label for="gender" class="form-label">Gender <span class="text-danger text-capitalize">*</span></label>
+                <select class="form-control" name="gender" id="gender">
+                    <option value="">Select Gender</option>
+                    <option value="Male" >Male</option>
+                    <option value="Female" >Female</option>
+                    <option value="Transgender" >Transgender
+                    </option>
+                </select>
+                            </div>
+            <div class="mb-3">
+                <label for="gender" class="form-label">Country <span
+                        class="text-danger text-capitalize">*</span></label>
+                <select class="form-control" name="country" id="country">
+                    <option value="">Select Country</option>
+                                                <option value="1" >
+                                India                            </option>
+                                            </select>
+                            </div>
+            <div class="mb-3">
+                <label for="gender" class="form-label">State <span class="text-danger text-capitalize">*</span></label>
+                <select class="form-control" name="state" id="state">
+                    <option value="">Select State</option>
+                </select>
+                            </div>
+            <div class="mb-3">
+                <label for="gender" class="form-label">City <span class="text-danger text-capitalize">*</span></label>
+                <select class="form-control" name="city" id="city">
+                    <option value="">Select City</option>
+                </select>
+                            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">Permanent Address <span
+                        class="text-danger text-capitalize">*</span></label>
+                <input type="text" class="form-control" id="p_address" name="p_address" value="">
+                            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">Current Address <span
+                        class="text-danger text-capitalize">*</span></label>
+                <input type="text" class="form-control" id="c_address" name="c_address" value="">
+                            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+
+</body>
+
+</html>
+<script>
+    $(document).ready(function () {
+        $('#country').change(function () {
+            var country = $(this).val();
+            $.ajax({
+                url: "http://localhost/cludo/country_id",
+                type: 'POST',
+                data: {
+                    country: country
+                },
+                dataType: 'json',
+                success: function (res) {
+                    var options = '<option value="">Select State</option>';
+                    if (res.status === '1') {
+                        var state_code = '';
+                        $.each(res.data, function (key, value) {
+                            var selected = (state_code == value.s_id) ?
+                                'selected' : '';
+                            options += '<option value="' + value.s_id + '" ' +
+                                selected +
+                                '>' + value.s_name + '</option>';
+                        });
+                    }
+                    $('#state').html(options);
+                    $('#state').trigger('change');
+                },
+            });
+        });
+        $('#state').change(function () {
+            var state_code = $(this).val();
+            $.ajax({
+                url: "http://localhost/cludo/state_id",
+                type: 'POST',
+                data: {
+                    state_code: state_code
+                },
+                dataType: 'json',
+                success: function (res) {
+                    var options = '<option value="">Select City</option>';
+                    if (res.status === '1') {
+                        var district_code = '';
+                        $.each(res.data, function (key, value) {
+                            var selected = (district_code == value.d_id) ?
+                                'selected' : ''
+                            options += '<option value="' + value.d_id + '" ' +
+                                selected +
+                                '>' + value.d_name + '</option>';
+                        });
+                    }
+                    $('#city').html(options);
+                },
+            });
+        });
+            });
+</script>.php"
+[Method: POST, Route: save_user]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Data</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <form id="custom_form" method="post">
+        <input type="hidden" name="custom_id" id="custom_id">
+        <input type="hidden" name="mode" id="mode">
+        <input type="hidden" name="ext_flag" id="ext_flag">
+        <input type="hidden" name="ci_csrf_token" value="">
+    </form>
+    
+    <div class="container mt-5">
+        <h2>Add User</h2>
+        <a class="btn btn-sm btn-primary" href="http://localhost/cludo/">View User</a>
+        <form action="http://localhost/cludo/save_user" method="POST">
+            <input type="hidden" name="user_id" value="">
+            <div class="mb-3">
+                <label for="name" class="form-label">Coustomer Name <span
+                        class="text-danger text-capitalize">*</span></label>
+                <input type="text" class="form-control" id="name" name="name" value="">
+                <div class="text-danger">
+                                    </div>
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">Contact Person <span
+                        class="text-danger text-capitalize">*</span></label>
+                <input type="text" class="form-control" id="c_person" name="c_person" value="">
+                            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">Contact No <span
+                        class="text-danger text-capitalize">*</span></label>
+                <input type="number" class="form-control" id="c_number" name="c_number" value="">
+                            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">Email ID <span
+                        class="text-danger text-capitalize">*</span></label>
+                <input type="text" class="form-control" id="email" name="email" value="">
+                            </div>
+            <div class="mb-3">
+                <label for="gender" class="form-label">Gender <span class="text-danger text-capitalize">*</span></label>
+                <select class="form-control" name="gender" id="gender">
+                    <option value="">Select Gender</option>
+                    <option value="Male" >Male</option>
+                    <option value="Female" >Female</option>
+                    <option value="Transgender" >Transgender
+                    </option>
+                </select>
+                            </div>
+            <div class="mb-3">
+                <label for="gender" class="form-label">Country <span
+                        class="text-danger text-capitalize">*</span></label>
+                <select class="form-control" name="country" id="country">
+                    <option value="">Select Country</option>
+                                                <option value="1" >
+                                India                            </option>
+                                            </select>
+                            </div>
+            <div class="mb-3">
+                <label for="gender" class="form-label">State <span class="text-danger text-capitalize">*</span></label>
+                <select class="form-control" name="state" id="state">
+                    <option value="">Select State</option>
+                </select>
+                            </div>
+            <div class="mb-3">
+                <label for="gender" class="form-label">City <span class="text-danger text-capitalize">*</span></label>
+                <select class="form-control" name="city" id="city">
+                    <option value="">Select City</option>
+                </select>
+                            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">Permanent Address <span
+                        class="text-danger text-capitalize">*</span></label>
+                <input type="text" class="form-control" id="p_address" name="p_address" value="">
+                            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">Current Address <span
+                        class="text-danger text-capitalize">*</span></label>
+                <input type="text" class="form-control" id="c_address" name="c_address" value="">
+                            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+
+</body>
+
+</html>
+<script>
+    $(document).ready(function () {
+        $(\'#country\').change(function () {
+            var country = $(this).val();
+            $.ajax({
+                url: "http://localhost/cludo/country_id",
+                type: \'POST\',
+                data: {
+                    country: country
+                },
+                dataType: \'json\',
+                success: function (res) {
+                    var options = \'<option value="">Select State</option>\';
+                    if (res.status === \'1\') {
+                        var state_code = \'\';
+                        $.each(res.data, function (key, value) {
+                            var selected = (state_code == value.s_id) ?
+                                \'selected\' : \'\';
+                            options += \'<option value="\' + value.s_id + \'" \' +
+                                selected +
+                                \'>\' + value.s_name + \'</option>\';
+                        });
+                    }
+                    $(\'#state\').html(options);
+                    $(\'#state\').trigger(\'change\');
+                },
+            });
+        });
+        $(\'#state\').change(function () {
+            var state_code = $(this).val();
+            $.ajax({
+                url: "http://localhost/cludo/state_id",
+                type: \'POST\',
+                data: {
+                    state_code: state_code
+                },
+                dataType: \'json\',
+                success: function (res) {
+                    var options = \'<option value="">Select City</option>\';
+                    if (res.status === \'1\') {
+                        var district_code = \'\';
+                        $.each(res.data, function (key, value) {
+                            var selected = (district_code == value.d_id) ?
+                                \'selected\' : \'\'
+                            options += \'<option value="\' + value.d_id + \'" \' +
+                                selected +
+                                \'>\' + value.d_name + \'</option>\';
+                        });
+                    }
+                    $(\'#city\').html(options);
+                },
+            });
+        });
+            });
+</script>.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Data</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <form id="custom_form" method="post">
+        <input type="hidden" name="custom_id" id="custom_id">
+        <input type="hidden" name="mode" id="mode">
+        <input type="hidden" name="ext_flag" id="ext_flag">
+        <input type="hidden" name="ci_csrf_token" value="">
+    </form>
+    
+    <div class="container mt-5">
+        <h2>Add User</h2>
+        <a class="btn btn-sm btn-primary" href="http://localhost/cludo/">View User</a>
+        <form action="http://localhost/cludo/save_user" method="POST">
+            <input type="hidden" name="user_id" value="">
+            <div class="mb-3">
+                <label for="name" class="form-label">Coustomer Name <span
+                        class="text-danger text-capitalize">*</span></label>
+                <input type="text" class="form-control" id="name" name="name" value="">
+                <div class="text-danger">
+                                    </div>
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">Contact Person <span
+                        class="text-danger text-capitalize">*</span></label>
+                <input type="text" class="form-control" id="c_person" name="c_person" value="">
+                            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">Contact No <span
+                        class="text-danger text-capitalize">*</span></label>
+                <input type="number" class="form-control" id="c_number" name="c_number" value="">
+                            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">Email ID <span
+                        class="text-danger text-capitalize">*</span></label>
+                <input type="text" class="form-control" id="email" name="email" value="">
+                            </div>
+            <div class="mb-3">
+                <label for="gender" class="form-label">Gender <span class="text-danger text-capitalize">*</span></label>
+                <select class="form-control" name="gender" id="gender">
+                    <option value="">Select Gender</option>
+                    <option value="Male" >Male</option>
+                    <option value="Female" >Female</option>
+                    <option value="Transgender" >Transgender
+                    </option>
+                </select>
+                            </div>
+            <div class="mb-3">
+                <label for="gender" class="form-label">Country <span
+                        class="text-danger text-capitalize">*</span></label>
+                <select class="form-control" name="country" id="country">
+                    <option value="">Select Country</option>
+                                                <option value="1" >
+                                India                            </option>
+                                            </select>
+                            </div>
+            <div class="mb-3">
+                <label for="gender" class="form-label">State <span class="text-danger text-capitalize">*</span></label>
+                <select class="form-control" name="state" id="state">
+                    <option value="">Select State</option>
+                </select>
+                            </div>
+            <div class="mb-3">
+                <label for="gender" class="form-label">City <span class="text-danger text-capitalize">*</span></label>
+                <select class="form-control" name="city" id="city">
+                    <option value="">Select City</option>
+                </select>
+                            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">Permanent Address <span
+                        class="text-danger text-capitalize">*</span></label>
+                <input type="text" class="form-control" id="p_address" name="p_address" value="">
+                            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">Current Address <span
+                        class="text-danger text-capitalize">*</span></label>
+                <input type="text" class="form-control" id="c_address" name="c_address" value="">
+                            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+
+</body>
+
+</html>
+<script>
+    $(document).ready(function () {
+        $(\'#country\').change(function () {
+            var country = $(this).val();
+            $.ajax({
+                url: "http://localhost/cludo/country_id",
+                type: \'POST\',
+                data: {
+                    country: country
+                },
+                dataType: \'json\',
+                success: function (res) {
+                    var options = \'<option value="">Select State</option>\';
+                    if (res.status === \'1\') {
+                        var state_code = \'\';
+                        $.each(res.data, function (key, value) {
+                            var selected = (state_code == value.s_id) ?
+                                \'selected\' : \'\';
+                            options += \'<option value="\' + value.s_id + \'" \' +
+                                selected +
+                                \'>\' + value.s_name + \'</option>\';
+                        });
+                    }
+                    $(\'#state\').html(options);
+                    $(\'#state\').trigger(\'change\');
+                },
+            });
+        });
+        $(\'#state\').change(function () {
+            var state_code = $(this).val();
+            $.ajax({
+                url: "http://localhost/cludo/state_id",
+                type: \'POST\',
+                data: {
+                    state_code: state_code
+                },
+                dataType: \'json\',
+                success: function (res) {
+                    var options = \'<option value="">Select City</option>\';
+                    if (res.status === \'1\') {
+                        var district_code = \'\';
+                        $.each(res.data, function (key, value) {
+                            var selected = (district_code == value.d_id) ?
+                                \'selected\' : \'\'
+                            options += \'<option value="\' + value.d_id + \'" \' +
+                                selected +
+                                \'>\' + value.d_name + \'</option>\';
+                        });
+                    }
+                    $(\'#city\').html(options);
+                },
+            });
+        });
+            });
+</script>', [], true)
+ 3 APPPATH\Controllers\Home.php(110): view('<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Data</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <form id="custom_form" method="post">
+        <input type="hidden" name="custom_id" id="custom_id">
+        <input type="hidden" name="mode" id="mode">
+        <input type="hidden" name="ext_flag" id="ext_flag">
+        <input type="hidden" name="ci_csrf_token" value="">
+    </form>
+    
+    <div class="container mt-5">
+        <h2>Add User</h2>
+        <a class="btn btn-sm btn-primary" href="http://localhost/cludo/">View User</a>
+        <form action="http://localhost/cludo/save_user" method="POST">
+            <input type="hidden" name="user_id" value="">
+            <div class="mb-3">
+                <label for="name" class="form-label">Coustomer Name <span
+                        class="text-danger text-capitalize">*</span></label>
+                <input type="text" class="form-control" id="name" name="name" value="">
+                <div class="text-danger">
+                                    </div>
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">Contact Person <span
+                        class="text-danger text-capitalize">*</span></label>
+                <input type="text" class="form-control" id="c_person" name="c_person" value="">
+                            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">Contact No <span
+                        class="text-danger text-capitalize">*</span></label>
+                <input type="number" class="form-control" id="c_number" name="c_number" value="">
+                            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">Email ID <span
+                        class="text-danger text-capitalize">*</span></label>
+                <input type="text" class="form-control" id="email" name="email" value="">
+                            </div>
+            <div class="mb-3">
+                <label for="gender" class="form-label">Gender <span class="text-danger text-capitalize">*</span></label>
+                <select class="form-control" name="gender" id="gender">
+                    <option value="">Select Gender</option>
+                    <option value="Male" >Male</option>
+                    <option value="Female" >Female</option>
+                    <option value="Transgender" >Transgender
+                    </option>
+                </select>
+                            </div>
+            <div class="mb-3">
+                <label for="gender" class="form-label">Country <span
+                        class="text-danger text-capitalize">*</span></label>
+                <select class="form-control" name="country" id="country">
+                    <option value="">Select Country</option>
+                                                <option value="1" >
+                                India                            </option>
+                                            </select>
+                            </div>
+            <div class="mb-3">
+                <label for="gender" class="form-label">State <span class="text-danger text-capitalize">*</span></label>
+                <select class="form-control" name="state" id="state">
+                    <option value="">Select State</option>
+                </select>
+                            </div>
+            <div class="mb-3">
+                <label for="gender" class="form-label">City <span class="text-danger text-capitalize">*</span></label>
+                <select class="form-control" name="city" id="city">
+                    <option value="">Select City</option>
+                </select>
+                            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">Permanent Address <span
+                        class="text-danger text-capitalize">*</span></label>
+                <input type="text" class="form-control" id="p_address" name="p_address" value="">
+                            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">Current Address <span
+                        class="text-danger text-capitalize">*</span></label>
+                <input type="text" class="form-control" id="c_address" name="c_address" value="">
+                            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+
+</body>
+
+</html>
+<script>
+    $(document).ready(function () {
+        $(\'#country\').change(function () {
+            var country = $(this).val();
+            $.ajax({
+                url: "http://localhost/cludo/country_id",
+                type: \'POST\',
+                data: {
+                    country: country
+                },
+                dataType: \'json\',
+                success: function (res) {
+                    var options = \'<option value="">Select State</option>\';
+                    if (res.status === \'1\') {
+                        var state_code = \'\';
+                        $.each(res.data, function (key, value) {
+                            var selected = (state_code == value.s_id) ?
+                                \'selected\' : \'\';
+                            options += \'<option value="\' + value.s_id + \'" \' +
+                                selected +
+                                \'>\' + value.s_name + \'</option>\';
+                        });
+                    }
+                    $(\'#state\').html(options);
+                    $(\'#state\').trigger(\'change\');
+                },
+            });
+        });
+        $(\'#state\').change(function () {
+            var state_code = $(this).val();
+            $.ajax({
+                url: "http://localhost/cludo/state_id",
+                type: \'POST\',
+                data: {
+                    state_code: state_code
+                },
+                dataType: \'json\',
+                success: function (res) {
+                    var options = \'<option value="">Select City</option>\';
+                    if (res.status === \'1\') {
+                        var district_code = \'\';
+                        $.each(res.data, function (key, value) {
+                            var selected = (district_code == value.d_id) ?
+                                \'selected\' : \'\'
+                            options += \'<option value="\' + value.d_id + \'" \' +
+                                selected +
+                                \'>\' + value.d_name + \'</option>\';
+                        });
+                    }
+                    $(\'#city\').html(options);
+                },
+            });
+        });
+            });
+</script>', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->save_user()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-04 12:23:41 --> Error: Call to undefined function App\Controllers\add_user()
+[Method: POST, Route: save_user]
+in APPPATH\Controllers\Home.php on line 110.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->save_user()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-04 12:35:35 --> Error: Call to a member function withInput() on string
+[Method: POST, Route: save_user]
+in APPPATH\Controllers\Home.php on line 110.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->save_user()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-04 12:35:41 --> Error: Call to a member function withInput() on string
+[Method: POST, Route: save_user]
+in APPPATH\Controllers\Home.php on line 110.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->save_user()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-04 12:35:59 --> Error: Call to a member function withInput() on string
+[Method: POST, Route: save_user]
+in APPPATH\Controllers\Home.php on line 110.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->save_user()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-04 12:36:39 --> TypeError: CodeIgniter\HTTP\RedirectResponse::with(): Argument #1 ($key) must be of type string, array given, called in E:\xampp\htdocs\cludo\app\Controllers\Home.php on line 110
+[Method: POST, Route: save_user]
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 134.
+ 1 APPPATH\Controllers\Home.php(110): CodeIgniter\HTTP\RedirectResponse->with([...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->save_user()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

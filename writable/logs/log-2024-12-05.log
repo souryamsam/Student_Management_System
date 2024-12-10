@@ -1,0 +1,83 @@
+CRITICAL - 2024-12-05 06:49:48 --> ErrorException: Undefined array key "custom_id"
+[Method: POST, Route: duplicate_check]
+in APPPATH\Models\UserModel.php on line 87.
+ 1 APPPATH\Models\UserModel.php(87): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "custom_id"', 'E:\\xampp\\htdocs\\cludo\\app\\Models\\UserModel.php', 87)
+ 2 APPPATH\Controllers\Home.php(120): App\Models\UserModel->update_status([...])
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->update_status()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-05 07:07:24 --> ErrorException: Array to string conversion
+[Method: POST, Route: duplicate_check]
+in APPPATH\Controllers\Home.php on line 128.
+ 1 APPPATH\Controllers\Home.php(128): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'E:\\xampp\\htdocs\\cludo\\app\\Controllers\\Home.php', 128)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->duplicate_checking()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-05 07:11:33 --> Error: Call to undefined method CodeIgniter\Database\MySQLi\Builder::getNumRows()
+[Method: POST, Route: duplicate_check]
+in APPPATH\Models\UserModel.php on line 90.
+ 1 APPPATH\Controllers\Home.php(127): App\Models\UserModel->duplicate_checking([...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->duplicate_checking()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-05 07:12:02 --> Error: Call to undefined method CodeIgniter\Database\MySQLi\Builder::getNumRows()
+[Method: POST, Route: duplicate_check]
+in APPPATH\Models\UserModel.php on line 90.
+ 1 APPPATH\Controllers\Home.php(127): App\Models\UserModel->duplicate_checking([...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->duplicate_checking()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-05 07:13:07 --> Error: Call to undefined method CodeIgniter\Database\MySQLi\Builder::getNumRows()
+[Method: POST, Route: duplicate_check]
+in APPPATH\Models\UserModel.php on line 90.
+ 1 APPPATH\Controllers\Home.php(127): App\Models\UserModel->duplicate_checking([...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->duplicate_checking()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-05 07:14:07 --> Error: Call to undefined method CodeIgniter\Database\MySQLi\Builder::getNumRows()
+[Method: POST, Route: duplicate_check]
+in APPPATH\Models\UserModel.php on line 90.
+ 1 APPPATH\Controllers\Home.php(127): App\Models\UserModel->duplicate_checking([...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->duplicate_checking()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-05 07:58:55 --> ErrorException: Undefined array key "c_number"
+[Method: POST, Route: duplicate_check]
+in APPPATH\Models\UserModel.php on line 56.
+ 1 APPPATH\Models\UserModel.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "c_number"', 'E:\\xampp\\htdocs\\cludo\\app\\Models\\UserModel.php', 56)
+ 2 APPPATH\Controllers\Home.php(127): App\Models\UserModel->duplicate_checking([...])
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->duplicate_checking()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-05 07:58:58 --> ErrorException: Undefined array key "c_number"
+[Method: POST, Route: duplicate_check]
+in APPPATH\Models\UserModel.php on line 56.
+ 1 APPPATH\Models\UserModel.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "c_number"', 'E:\\xampp\\htdocs\\cludo\\app\\Models\\UserModel.php', 56)
+ 2 APPPATH\Controllers\Home.php(127): App\Models\UserModel->duplicate_checking([...])
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->duplicate_checking()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

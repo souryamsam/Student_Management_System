@@ -1,0 +1,41 @@
+CRITICAL - 2024-12-08 10:01:20 --> ErrorException: Undefined array key "city"
+[Method: GET, Route: upload]
+in APPPATH\Views\login.php on line 46.
+ 1 APPPATH\Views\login.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "city"', 'E:\\xampp\\htdocs\\cludo\\app\\Views\\login.php', 46)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp\\htdocs\\cludo\\app\\Views\\login.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('login', [], true)
+ 5 APPPATH\Controllers\Home.php(126): view('login')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->from()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-08 10:16:33 --> ErrorException: Undefined array key "city"
+[Method: GET, Route: upload]
+in APPPATH\Views\login.php on line 29.
+ 1 APPPATH\Views\login.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "city"', 'E:\\xampp\\htdocs\\cludo\\app\\Views\\login.php', 29)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp\\htdocs\\cludo\\app\\Views\\login.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('login', [], true)
+ 5 APPPATH\Controllers\Home.php(127): view('login', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->from()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-08 10:28:10 --> TypeError: Cannot access offset of type string on string
+[Method: GET, Route: upload]
+in APPPATH\Views\login.php on line 68.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('login', [], true)
+ 4 APPPATH\Controllers\Home.php(127): view('login', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->from()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
