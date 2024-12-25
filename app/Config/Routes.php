@@ -8,9 +8,11 @@ use CodeIgniter\Router\RouteCollection;
 $routes->get('/', 'Home::login_from');
 $routes->post('login', 'Home::hit_login');
 $routes->get('logout', 'Home::logout');
-$routes->get('/view', 'Home::view_user');
-$routes->get('/add', 'Home::add_user');
-$routes->post('/add', 'Home::add_user');//for single data post
+// $routes->get('/view', 'Home::view_user');
+$routes->match(['get', 'post'], '/view', 'Home::view_user', ['filter' => 'authGuard']);
+// $routes->get('/add', 'Home::add_user');
+// $routes->post('/add', 'Home::add_user');//for single data post
+$routes->match(['get', 'post'], '/add', 'Home::add_user', ['filter' => 'authGuard']);
 $routes->post('/save_user', 'Home::save_user');
 $routes->post('country_id', 'Home::fatch_state_data');
 $routes->post('state_id', 'Home::fatch_city_data');

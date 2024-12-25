@@ -35,8 +35,10 @@ class Home extends BaseController
             $phon_no = $this->request->getPost('phone');
             $password = $this->request->getPost('password');
             $validate = $this->userModel->login_checked($phon_no, $password);
+            // print_r($validate);
+            // die;
             if ($validate) {
-                session()->set('user_id', ['user_id' => $validate['id']]);
+                session()->set('user_id', $validate);
                 session()->setFlashdata('msg', ['status' => '1', 'message' => 'Successfully Logged In']);
                 return redirect()->to(base_url('/view'));
             } else {

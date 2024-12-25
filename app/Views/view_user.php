@@ -1,3 +1,10 @@
+<?php
+if (session()->has('user_id')) {
+    $user_info = session()->get('user_id');
+} else {
+    echo 'Session Not Exit';
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -21,7 +28,7 @@
     </form>
     <div class="container mt-5">
         <a class="btn btn-sm btn-danger" href="<?= base_url('logout'); ?>" style="float: right;">Logout</a>
-        <h2>Your User ID <?= $session_data['user_id']; ?></h2>
+        <h2 class="text-center">User Id : <?= $user_info['id'] ?></h2>
         <a class="btn btn-sm btn-primary" href="<?= base_url('/add'); ?>">Add user</a>
         <a class="btn btn-sm btn-danger" href="<?= base_url('upload'); ?>" style="float: right;">Uploads Photo</a>
         <table class="table">
